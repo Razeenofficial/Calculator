@@ -73,8 +73,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // ...
-
 const buttons = document.querySelectorAll(".btn");
 buttons.forEach(button => {
     button.addEventListener("click", function() {
@@ -87,7 +85,7 @@ buttons.forEach(button => {
             clear();
         } else if (buttonText === "=") {
             handleEqualsClick();
-        } else if (buttonText === "←") { // Corrected text content
+        } else if (buttonText === "←") { 
             handleBackspaceClick();
         } else if (buttonText === ".") {
             handleDecimalClick();
