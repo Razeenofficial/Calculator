@@ -15,7 +15,7 @@ body {
     border: 2px solid #333;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 30px; /* Increase the padding */
+    padding: 30px; 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px; 
