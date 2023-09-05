@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color:#2B2730;
+    background-color:#F9F5F6;
 
 }
 
@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px; 
-    background-color: #7895CB;
+    background-color: #A0C49D;
 }
 
 .cal {
@@ -60,17 +60,17 @@ font-size: larger;
 }
 
 .btn-number {
-    background-color: #3498db;
+    background-color: #C4D7B2;
     color: #fff;
 }
 
 .btn-operator {
-    background-color: #27ae60;
+    background-color: #E1ECC8;
     color: #fff;
 }
 
 .btn-equals {
-    background-color: #e74c3c;
+    background-color: #98EECC;
     color: #fff;
 }
 
